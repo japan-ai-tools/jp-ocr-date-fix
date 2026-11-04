@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jp-ocr-date-fix"
-version = "0.1.0"
+version = "0.1.1"
 description = "Repair Japanese dates broken by OCR (今和→令和) and keep only fixes valid on the calendar."
 readme = "README.md"
 license = { text = "MIT" }
@@ -23,8 +23,8 @@ dependencies = []
 jp-ocr-date-fix = "jpocrdate.server:main"
 
 [project.urls]
-Homepage = "https://github.com/ayatrader/jp-ocr-date-fix"
-Source = "https://github.com/ayatrader/jp-ocr-date-fix"
+Homepage = "https://github.com/japan-ai-tools/jp-ocr-date-fix"
+Source = "https://github.com/japan-ai-tools/jp-ocr-date-fix"
 
 [tool.setuptools]
 packages = ["jpocrdate"]
