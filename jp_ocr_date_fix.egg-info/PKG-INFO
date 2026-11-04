@@ -1,11 +1,11 @@
 Metadata-Version: 2.4
 Name: jp-ocr-date-fix
-Version: 0.1.0
+Version: 0.1.1
 Summary: Repair Japanese dates broken by OCR (今和→令和) and keep only fixes valid on the calendar.
 Author: NEXUS tools
 License: MIT
-Project-URL: Homepage, https://github.com/ayatrader/jp-ocr-date-fix
-Project-URL: Source, https://github.com/ayatrader/jp-ocr-date-fix
+Project-URL: Homepage, https://github.com/japan-ai-tools/jp-ocr-date-fix
+Project-URL: Source, https://github.com/japan-ai-tools/jp-ocr-date-fix
 Keywords: mcp,mcp-server,japanese,ai-agents
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
@@ -18,7 +18,7 @@ Dynamic: license-file
 
 # JP OCR Date Fix
 
-<!-- mcp-name: io.github.ayatrader/jp-ocr-date-fix -->
+<!-- mcp-name: io.github.japan-ai-tools/jp-ocr-date-fix -->
 
 **Repair Japanese dates that OCR broke (`今和6年3月15曰` → `令和6年3月15日`), and only when the calendar confirms the result.**
 
