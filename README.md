@@ -1,6 +1,6 @@
 # JP OCR Date Fix
 
-<!-- mcp-name: io.github.ayatrader/jp-ocr-date-fix -->
+<!-- mcp-name: io.github.japan-ai-tools/jp-ocr-date-fix -->
 
 **Repair Japanese dates that OCR broke (`今和6年3月15曰` → `令和6年3月15日`), and only when the calendar confirms the result.**
 
