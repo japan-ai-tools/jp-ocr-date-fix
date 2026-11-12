@@ -43,6 +43,9 @@ Tools (read-only):
 | `jp_ocr_fix_dates` | `text` | repaired `text`, `changes` (start/end/before/after/iso), `flags` |
 | `jp_ocr_check_date` | `date` | `status`: ok / fixed / invalid / not_a_date, `date`, `iso` |
 
+MCP protocol: the stdio server speaks both the classic `initialize` flow (2025-06-18 and earlier) and the stateless 2026-07-28 revision (`server/discover`, per-request `_meta`). Tested in `tests/test_mcp_2026.py`.
+MCP の新しい版(2026-07-28・server/discover)と従来の initialize の両方で動きます。
+
 ## Scope and limits
 
 - Eras: 明治, 大正, 昭和, 平成, 令和. Abbreviations such as `R6.3.15` or `H31/4/30` are not handled yet
